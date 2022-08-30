@@ -27,9 +27,9 @@ while robot.step(timestep) != -1:
     print(key_pressed) 
     
     if(key_pressed == 49):
-        motorA_pos += 0.01
+        motorA_pos += 0.005
     if(key_pressed == 50):
-        motorA_pos -= 0.01
+        motorA_pos -= 0.005
         
     if(key_pressed == 51):
         motorB_pos += 0.01
